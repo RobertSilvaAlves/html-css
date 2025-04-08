@@ -1,0 +1,86 @@
+body {
+    background-image: url(fundo-de-circulos-em-tons-escuro.png);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0%;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.568);
+}
+
+h1 {
+
+    text-align: center;
+    text-shadow: 1px 4px 10px rgba(0, 0, 0, 0.39);
+}
+
+nav {
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.486);
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.39);
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.39);
+}
+
+article>aside {
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    border-radius: 5px;
+
+
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 110px;
+    width: 110px;
+    margin: 20px auto 20px auto;
+}
+
+#bola img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

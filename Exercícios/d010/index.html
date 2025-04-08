@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio Android</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="uteis/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1>Curiosidades de Tecnologia</h1>
+    <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+
+    <!-- Menu original substituído por menu com dropdown -->
+    <!--
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Notícias</a>
+      <a href="#">Curiosidades</a>
+      <a href="#">Fale Conosco</a>
+    </nav>
+    -->
+
+    <!-- Menu com dropdown integrado -->
+    <nav class="menu">
+      <div class="dropdown">
+        <a href="#">Home</a>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">Notícias</a>
+        <div class="dropdown-content">
+          <a href="#">Tecnologia</a>
+          <a href="#">Android</a>
+          <a href="#">Gadgets</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">Curiosidades</a>
+        <div class="dropdown-content">
+          <a href="#">História</a>
+          <a href="#">Versões</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">Fale Conosco</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <h1>História do Mascote do Android</h1>
+    <p>
+      Provavelmente você sabe que o sistema operacional Android, mantido pelo Google, é um dos mais utilizados para
+      dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma
+      história muito curiosa. Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+    </p>
+
+    <h2 class="titulo2">A primeira versão</h2>
+    <p>
+      A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele
+      conta que abriu o Inkscape e criou sua própria versão de robô apenas para sua equipe.
+    </p>
+    <picture>
+      <source media="(max-width: 1025px)" srcset="uteis/dan-droids-pq.png" />
+      <img src="uteis/dan-droids.png" alt="androids" />
+    </picture>
+    <p>Essa primeira versão bizarra foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+
+    <h2 class="titulo2">Surge um novo mascote</h2>
+    <p>
+      A ideia amadureceu e passou para a ilustradora russa Irina Blok, funcionária do Google, que criou um robô mais
+      simpático e reconhecível: o Bugdroid.
+    </p>
+    <picture>
+      <source media="(max-width: 1025px)" srcset="uteis/irina-blok-pq.jpg" />
+      <img src="uteis/irina-blok.jpg" alt="Irina Blok" />
+    </picture>
+    <p>
+      A principal inspiração para os traços do Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro. A
+      identificação foi imediata: simples, limpo, objetivo.
+    </p>
+    <picture>
+      <img src="uteis/bugdroid.png" alt="android" />
+    </picture>
+  </main>
+
+  <section class="video">
+    <iframe src="https://www.youtube.com/embed/l2UDgpLz20M?si=7Ojlwne7Ig4l-OTh" title="YouTube video player"
+      frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section class="versoes">
+    <h3>Quer aprender mais?</h3>
+    <article>
+      <p>
+        Outro assunto curioso: cada versão do Android foi nomeada com doces, em ordem alfabética, da versão 1.5 até a 9.0.
+      </p>
+
+      <div class="lista-container">
+        <ul class="coluna">
+          <li>✔ 1.5 - Cupcake</li>
+          <li>✔ 1.6 - Donut</li>
+          <li>✔ 3.0 - Eclair</li>
+          <li>✔ 2.2 - Froyo</li>
+          <li>✔ 2.3 - Gingerbread</li>
+          <li>✔ 3.0 - Honeycomb</li>
+          <li>✔ 4.0 - Ice Cream Sandwich</li>
+        </ul>
+        <ul class="coluna">
+          <li>✔ 4.1 - Jelly Bean</li>
+          <li>✔ 4.4 - KitKat</li>
+          <li>✔ 5.0 - Lollipop</li>
+          <li>✔ 6.0 - Marshmallow</li>
+          <li>✔ 7.0 - Nougat</li>
+          <li>✔ 8.0 - Oreo</li>
+          <li>✔ 9.0 - Pie</li>
+        </ul>
+      </div>
+
+      <p>
+        Infelizmente, o Google parou com a prática a partir do Android 10.
+      </p>
+      <p>
+        Acesse o site <a class="link" href="https://www.android.com/intl/pt_br/what-is-android/" target="_blank">Android
+          History </a>🔗 para saber mais.
+      </p>
+    </article>
+
+    <aside>
+      Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android.
+    </aside>
+  </section>
+
+  <footer class="rodape">
+    Site criado por <span>Robert Alves</span> para o <span>CursoemVídeo</span>.
+  </footer>
+</body>
+
+</html>
